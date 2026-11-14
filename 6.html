@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>WWTeacher -Apply Now!</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Abdelbaki Abir & Rayhan Sakka">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body class="bg6">
+  <nav>
+    <ul>
+      <li><button><a href="index.html">Home</a></button></li>
+      <li><button><a href="2.html">About us</a></button></li>
+      <li><button><a href="3.html">Opportunities</a></button></li>
+      <li><button><a href="4.html">Requirements & Qualifications</a></button></li>
+      <li><button><a href="5.html">Recruitment Process</a></button></li>
+      <li><button><a href="6.html">Apply now</a></button></li>
+    </ul>
+  </nav>
+  <section  class="top2" style="background-image: linear-gradient(to right, #dcecff 0%, #dcecff 30%, rgba(220,236,255,0.8) 50%, transparent 100%), url('Media/6.1.jpg');">
+    <div class="top-text">
+      <h1>Apply Now</h1>
+      <p>Take the first step towards an international teaching career</p>
+    </div>
+  </section>
+  <section>
+    <h1 class="form_h1">Teacher Application Form</h1>
+
+    <p class="form_p">Join Worldwide Teachers Programs
+      and start your international teaching journey!</p>
+
+    <form action="#" class="form_text" method="post" enctype="multipart/form-data">
+
+      <h3 class="form_h3">1. Personal Information</h3>
+
+      <label>First Name:</label>
+      <input type="text" name="firstname" required>
+
+      <label>Last Name:</label>
+      <input type="text" name="lastname" required>
+
+      <label>Date of Birth:</label>
+      <input type="date" name="birthdate" required>
+
+      <label>Gender:</label>
+      <select name="gender">
+        <option value="">Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+        <option>Prefer not to say</option>
+      </select>
+
+      <label>Email Address:</label>
+      <input type="email" name="email" required>
+
+      <label>Phone Number:</label>
+      <input type="tel" name="phone" required>
+
+      <label>Country of Residence:</label>
+      <input type="text" name="country" required>
+
+      <h3 class="form_h3">2. Educational Background</h3>
+
+      <label>Highest Qualification:</label>
+      <select name="qualification" required>
+        <option value="">Select Qualification</option>
+        <option>Bachelor's Degree</option>
+        <option>Master's Degree</option>
+        <option>PhD</option>
+        <option>Teaching Certificate</option>
+        <option>Other</option>
+      </select>
+
+      <label>University / Institution:</label>
+      <input type="text" name="university">
+
+      <label>Graduation Year:</label>
+      <input type="number" name="graduation">
+
+      <h3 class="form_h3">3. Teaching Experience</h3>
+
+      <label>Have you taught English before?</label>
+      <input type="radio" name="english" value="Yes" required> Yes
+      <input type="radio" name="english" value="No"> No
+
+      <label>Years of Teaching Experience:</label>
+      <select name="experience">
+        <option>No Experience</option>
+        <option>Less than 1 year</option>
+        <option>1 - 2 years</option>
+        <option>3 - 5 years</option>
+        <option>More than 5 years</option>
+      </select>
+
+      
+
+      <label>Why do you want to teach internationally?</label>
+      <textarea name="motivation" rows="5" placeholder="Write a short motivation..."></textarea>
+
+      <h3 class="form_h3">4. Required Documents</h3>
+
+      <label>Upload Your CV:</label>
+      <input type="file" name="cv" accept=".pdf,.doc,.docx">
+
+      <label>Upload Your Degree:</label>
+      <input type="file" name="degree" accept=".pdf,.jpg,.png">
+
+      <label>Upload Your Passport:</label>
+      <input type="file" name="passport" accept=".pdf,.jpg,.png">
+
+      <br><br>
+
+      <input type="checkbox" name="agreement" required>
+      I confirm that I have read and agreed with <a href="Media/TOS.pdf" download="Terms_and_Conditions.pdf" target="_blank">the terms and conditions.</a>
+
+      <div class="buttons">
+        <button type="submit" class="form_button">Submit Application</button>
+        <button type="reset" class="form_button">Reset Form</button>
+      </div>
+
+    </form>
+  </section>
+
+
+  <footer>
+    <div class="footer-container">
+
+      <div class="footer-main">
+
+        <div class="footer-details">
+          <h3>Where to find us</h3>
+          <p>
+            123 Main Street<br>
+            Anytown, ST 12345
+          </p>
+          <p>
+            <strong>Phone:</strong> <a href="tel:+15551234567">(555) 123-4567</a><br>
+            <strong>Email:</strong> <a href="mailto:contact@WWTeachers.com">contact@WWTeachers.com</a>
+          </p>
+          <ul class="footer-hours">
+            <li><span>Monday-Friday</span> <span>9am - 5pm</span></li>
+            <li><span>Saturday</span> <span>9am - 12pm</span></li>
+          </ul>
+        </div>
+
+        <div class="footer-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.257581903086!2d-122.42172838468165!3d37.78443997975718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809961d798f7%3A0x4a7947b146243886!2sSan%20Francisco%20City%20Hall!5e0!3m2!1sen!2sus!4v1630123456789!5m2!1sen!2sus">
+          </iframe>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 World Wide Teachers Program. All Rights Reserved.</p>
+
+      </div>
+  </footer>
+</body>
+
+</html>
